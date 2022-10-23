@@ -1,6 +1,27 @@
 body {
     font-family:'Arial';
+    margin: 0;
 }
-a {
-    text-indent: 60px;
+
+body {
+    background-color: rgb(189, 189, 189);
 }
+
+.field {
+    block-size:100%;
+}
+#field.main {
+    margin-left: 20%;
+    margin-right:20%;
+}
+#field.text {
+    width:100%;
+    padding-right: 20%;
+}
+#field h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+#field li {
+    text-align: left;
+}
+
